@@ -1,4 +1,4 @@
-FROM golang:1.10.4-alpine
+FROM 192.168.55.102/wzhedudb/golang:1.19.13
 
 ADD . /go/src/app
 
